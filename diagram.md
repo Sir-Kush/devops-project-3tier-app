@@ -1,9 +1,3 @@
-# DevOps Project 1 -3 Tier Application
-## 📌 Architecture Diagram (3-Tier Web Application)
-
-The diagram below represents the full architecture of the 3-Tier Application environment.  
-It includes networking flow, compute layer, storage, CI/CD pipeline, and Infrastructure as Code (Terraform):
-
 ```mermaid
 flowchart LR
   Internet --> ALB[Application Load Balancer]
@@ -23,4 +17,3 @@ flowchart LR
     DevLaptop --> DockerLocal[Docker local build & test]
   end
 ```
-
